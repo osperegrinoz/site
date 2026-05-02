@@ -1,26 +1,76 @@
 @import "tailwindcss";
 
+@theme {
+  --color-marrom: #3B2416;
+  --color-marrom-profundo: #1F120B;
+  --color-dourado: #C89B3C;
+  --color-pergaminho: #F5EBDD;
+  --color-pergaminho-claro: #FBF5EC;
+
+  --font-titulo: var(--font-cinzel);
+  --font-corpo: var(--font-inter);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #F5EBDD;
+  --foreground: #3B2416;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-cinzel), Georgia, serif;
+  letter-spacing: 0.02em;
+}
+
+::selection {
+  background: #C89B3C;
+  color: #1F120B;
+}
+
+.grain {
+  background-image: radial-gradient(rgba(59, 36, 22, 0.04) 1px, transparent 1px);
+  background-size: 4px 4px;
+}
+
+/* Tipografia para corpo dos Escritos */
+.prose-escrito {
+  color: #3B2416;
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+.prose-escrito p { margin-bottom: 1.5rem; }
+.prose-escrito h2 {
+  font-family: var(--font-cinzel), Georgia, serif;
+  font-size: 1.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: #3B2416;
+}
+.prose-escrito blockquote {
+  border-left: 3px solid #C89B3C;
+  padding-left: 1.25rem;
+  color: #3B2416;
+  opacity: 0.75;
+  font-style: italic;
+  margin: 2rem 0;
+}
+.prose-escrito hr {
+  border: none;
+  border-top: 1px solid rgba(59, 36, 22, 0.12);
+  margin: 2.5rem 0;
+}
+.prose-escrito strong { font-weight: 600; }
+.prose-escrito em { font-style: italic; }
+.prose-escrito a {
+  color: #C89B3C;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.prose-escrito a:hover { color: #3B2416; }

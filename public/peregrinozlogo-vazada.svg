@@ -1,0 +1,21 @@
+<svg viewBox="0 0 170 185" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Peregrinoz">
+  <!-- Corpo sólido do P -->
+  <path
+    d="M 0 0 L 96 0 C 150 0 172 26 172 57 C 172 88 150 114 96 114 L 50 114 L 50 185 L 0 185 Z"
+    fill="#3B2416"
+  />
+
+  <!-- Caminho serpentino branco (a estrada) -->
+  <path
+    d="M 25 183 C 25 162 43 151 43 130 C 43 109 20 98 39 77 C 58 56 47 44 68 33 C 82 25 93 22 100 15"
+    stroke="#F5EBDD"
+    stroke-width="8.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+
+  <!-- Cruz dourada -->
+  <rect x="98" y="11" width="9" height="40" rx="1" fill="#C89B3C"/>
+  <rect x="85" y="24" width="35" height="9" rx="1" fill="#C89B3C"/>
+</svg>
