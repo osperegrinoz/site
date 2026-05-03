@@ -15,7 +15,7 @@ export function Hero() {
           UM MOVIMENTO BÍBLICO
         </p>
 
-        <h1 className="text-4xl md:text-7xl leading-[1.05] text-marrom mb-6 md:mb-8">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl leading-[1.05] text-marrom mb-6 md:mb-8">
           Caminhando com Jesus
           <br />
           <span className="text-dourado">pela Palavra.</span>

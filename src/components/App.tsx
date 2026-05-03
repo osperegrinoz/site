@@ -17,11 +17,11 @@ export function App() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-3 md:gap-4">
           {AREAS.map((area, i) => (
             <div
               key={area.nome}
-              className="bg-pergaminho border border-marrom/10 rounded-xl p-6 hover:border-dourado/60 transition-colors"
+              className={`bg-pergaminho border border-marrom/10 rounded-xl p-6 hover:border-dourado/60 transition-colors ${i === 4 ? "sm:col-span-2 md:col-span-1" : ""}`}
             >
               <div className="text-dourado text-2xl mb-4 font-[family-name:var(--font-cinzel)]">
                 {String(i + 1).padStart(2, "0")}
