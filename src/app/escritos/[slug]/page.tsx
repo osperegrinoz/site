@@ -87,7 +87,7 @@ export default async function EscritoPage({ params }: Props) {
               Receba os próximos escritos por e-mail.
             </p>
             <a
-              href="https://peregrinoz.substack.com"
+              href="https://osperegrinoz.substack.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block rounded-full bg-marrom text-pergaminho px-6 py-3 text-sm tracking-wider hover:bg-marrom-profundo transition-colors"

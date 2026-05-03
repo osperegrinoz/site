@@ -1,7 +1,6 @@
-import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { getAllEscritos } from "@/lib/mdx";
+import { getSubstackPosts } from "@/lib/substack";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -17,8 +16,8 @@ function formatDate(iso: string) {
   });
 }
 
-export default function EscritosPage() {
-  const escritos = getAllEscritos();
+export default async function EscritosPage() {
+  const posts = await getSubstackPosts();
 
   return (
     <>
@@ -34,42 +33,51 @@ export default function EscritosPage() {
             que significa seguir Jesus de verdade.
           </p>
 
-          {escritos.length === 0 ? (
+          {posts.length === 0 ? (
             <p className="text-marrom/50">Nenhum escrito publicado ainda.</p>
           ) : (
             <ol className="space-y-12">
-              {escritos.map((e) => (
-                <li key={e.slug}>
-                  <Link
-                    href={`/escritos/${e.slug}`}
+              {posts.map((post) => (
+                <li key={post.url}>
+                  <a
+                    href={post.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="group block"
                   >
                     <time className="text-xs tracking-widest text-marrom/40 mb-2 block">
-                      {formatDate(e.date)}
+                      {formatDate(post.date)}
                     </time>
                     <h2 className="text-2xl text-marrom group-hover:text-dourado transition-colors mb-2">
-                      {e.title}
+                      {post.title}
                     </h2>
-                    <p className="text-marrom/70 leading-relaxed">
-                      {e.excerpt}
-                    </p>
-                    {e.tags.length > 0 && (
-                      <div className="flex gap-2 mt-3 flex-wrap">
-                        {e.tags.map((tag) => (
-                          <span
-                            key={tag}
-                            className="text-xs text-marrom/40 border border-marrom/15 rounded-full px-3 py-1"
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
+                    {post.excerpt && (
+                      <p className="text-marrom/70 leading-relaxed">
+                        {post.excerpt}
+                      </p>
                     )}
-                  </Link>
+                    <span className="inline-block mt-3 text-xs tracking-widest text-dourado group-hover:underline">
+                      LER NO SUBSTACK →
+                    </span>
+                  </a>
                 </li>
               ))}
             </ol>
           )}
+
+          <div className="mt-20 pt-12 border-t border-marrom/10 text-center">
+            <p className="text-marrom/60 text-sm mb-4">
+              Receba os próximos escritos diretamente no seu e-mail.
+            </p>
+            <a
+              href="https://osperegrinoz.substack.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded-full bg-marrom text-pergaminho px-8 py-4 text-sm tracking-wider hover:bg-marrom-profundo transition-colors"
+            >
+              ASSINAR NO SUBSTACK
+            </a>
+          </div>
         </div>
       </main>
       <Footer />
