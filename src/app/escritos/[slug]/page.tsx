@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const escrito = getEscrito(slug);
   if (!escrito) return {};
   return {
-    title: `${escrito.title} — Escritos Peregrinoz`,
+    title: `${escrito.title} · Escritos Peregrinoz`,
     description: escrito.excerpt,
   };
 }

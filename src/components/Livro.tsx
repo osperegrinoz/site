@@ -7,7 +7,7 @@ export function Livro() {
       <div className="mx-auto max-w-6xl px-6 grid md:grid-cols-2 gap-12 md:gap-16 items-center">
         <div className="order-2 md:order-1">
           <p className="text-xs tracking-[0.35em] text-marrom/60 mb-6">
-            O LIVRO — MANIFESTO
+            O LIVRO · MANIFESTO
           </p>
           <h2 className="text-4xl md:text-5xl leading-tight mb-8 text-marrom">
             Peregrinoz.
@@ -23,12 +23,17 @@ export function Livro() {
               Testemunho cru, texto bíblico aberto, e uma pergunta que você não
               vai conseguir devolver.
             </p>
+            <p>
+              Três partes. A primeira te diz por que você precisava disso. A
+              segunda te mostra quem Jesus é, de perto. A terceira te pergunta:
+              e agora, você vai seguir?
+            </p>
             <p className="text-marrom italic border-l-2 border-dourado pl-5">
               &ldquo;Eu quero que você tenha um encontro real com Jesus através
               da Palavra e desenvolva um relacionamento honesto com Ele. O
               restante deixa com Ele.&rdquo;
               <span className="block mt-2 text-sm not-italic text-marrom/60">
-                — Thiago Pastana, introdução
+                (Thiago Pastana, introdução)
               </span>
             </p>
           </div>

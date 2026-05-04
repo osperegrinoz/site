@@ -22,8 +22,9 @@ export function Hero() {
         </h1>
 
         <p className="text-base md:text-xl text-marrom/80 max-w-2xl mx-auto leading-relaxed mb-8 md:mb-10">
-          Um app, um livro e uma comunidade para quem quer conhecer Jesus de
-          verdade. Uma jornada de 21 encontros pelo Evangelho de João.
+          Um livro, um app e encontros semanais para quem quer conhecer Jesus
+          de verdade. Não de cor, mas de encontro. Pela Palavra, um capítulo
+          por vez.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -42,7 +43,7 @@ export function Hero() {
         </div>
 
         <p className="mt-14 text-xs tracking-[0.3em] text-marrom/50">
-          EM BREVE — NA APP STORE E GOOGLE PLAY
+          EM BREVE · NA APP STORE E GOOGLE PLAY
         </p>
       </div>
     </section>

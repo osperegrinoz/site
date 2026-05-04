@@ -13,20 +13,24 @@ export function Manifesto() {
 
         <div className="space-y-6 text-lg leading-relaxed text-pergaminho/90 max-w-3xl">
           <p>
-            Peregrinoz é um movimento bíblico centrado em Jesus Cristo.
-            Convida pessoas para uma <em>jornada real</em> de transformação
-            através da Palavra, vivida em comunidade e transbordando em missão.
+            Peregrinoz é um movimento bíblico centrado em Jesus Cristo. Nasceu
+            de uma pergunta que não dá pra fingir: e se a fé virou só clichê?
+            Resposta de cor, encontro nenhum, peso zero.
           </p>
           <p>
-            Não é um app de conteúdo genérico. É um movimento que serve a Igreja
-            sem substituí-la — construído para quem cresceu dentro da fé e
-            perdeu o peso dela, para quem foi machucado pela religião, e para
-            quem está chegando agora, cheio de perguntas.
+            Não é conteúdo genérico. É um movimento que serve a Igreja sem
+            substituí-la. Construído para quem cresceu dentro da fé e perdeu o
+            peso dela, para quem foi machucado pela religião, e para quem está
+            chegando agora, cheio de perguntas. Deus não usa gente perfeita.
+            Usa gente restaurada.
           </p>
           <p className="text-dourado italic">
-            &ldquo;A palavra peregrino carrega tudo: não é quem chegou. É quem
-            ainda está na estrada, suado, com dúvida, com o sapato gasto, mas
-            andando.&rdquo;
+            &ldquo;Eu não quero que você vire uma versão mais religiosa de si
+            mesmo. Quero que Jesus deixe de ser um conceito distante e se torne
+            alguém que você conhece.&rdquo;
+            <span className="block mt-2 text-sm not-italic text-pergaminho/60 font-normal">
+              (Thiago Pastana, introdução)
+            </span>
           </p>
         </div>
 
@@ -53,18 +57,18 @@ const PILARES = [
     numero: "I",
     titulo: "Palavra",
     texto:
-      "A Bíblia aberta e honesta. Não um versículo isolado por dia — a Escritura inteira apontando para Jesus.",
+      "A Bíblia aberta, sem filtro. Já caminhamos por João inteiro. Agora estamos em Atos. E a gente segue, um capítulo por vez, a Escritura inteira apontando para Jesus.",
   },
   {
     numero: "II",
     titulo: "Comunidade",
     texto:
-      "Ninguém caminha sozinho. Círculos pequenos onde se pode ser quebrado, honesto e acompanhado de verdade.",
+      "Ninguém caminha sozinho. Encontros toda quarta-feira, 19h. Lugar para ser quebrado, honesto e acompanhado de verdade.",
   },
   {
     numero: "III",
     titulo: "Missão",
     texto:
-      "A fé que transborda. Não um evento anual — uma vida inteira feita de pequenos atos que apontam para Cristo.",
+      "A fé que transborda. Não um evento de igreja, uma vida de pequenos atos. Você não precisa de credencial para cuidar das ovelhas que Deus colocou na sua vida.",
   },
 ];

@@ -48,7 +48,7 @@ export function App() {
 const AREAS = [
   {
     nome: "Caminho",
-    descricao: "A jornada completa pela Palavra — Etapas, Passos e Marcos.",
+    descricao: "A trilha completa pela Palavra (Etapas, Passos e Marcos).",
   },
   {
     nome: "Palavra",
@@ -64,6 +64,6 @@ const AREAS = [
   },
   {
     nome: "Eu",
-    descricao: "Minha Caminhada — progresso, Marcos conquistados, Refúgio.",
+    descricao: "Minha Caminhada: progresso, Marcos conquistados, Refúgio.",
   },
 ];

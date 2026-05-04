@@ -5,7 +5,7 @@ import { getEncontrosCronologicos, getEncontrosPorLivro } from "@/lib/encontros"
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Encontros — Peregrinoz",
+  title: "Encontros · Peregrinoz",
   description: "Leitura compartilhada comentada. Um capítulo por encontro, toda quarta.",
 };
 
@@ -24,7 +24,7 @@ export default function EncontrosPage() {
           <h1 className="text-4xl md:text-5xl text-marrom mb-4">Encontros</h1>
           <p className="text-marrom/70 text-lg leading-relaxed mb-16 max-w-xl">
             Toda quarta a gente se reúne para uma leitura compartilhada comentada.
-            Um capítulo da Bíblia por encontro — cada um lê um versículo,
+            Um capítulo da Bíblia por encontro: cada um lê um versículo,
             o Espírito Santo guia o resto.
           </p>
 

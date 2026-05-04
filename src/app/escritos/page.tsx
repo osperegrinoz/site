@@ -4,7 +4,7 @@ import { getSubstackPosts } from "@/lib/substack";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Escritos — Peregrinoz",
+  title: "Escritos · Peregrinoz",
   description: "Textos de aprofundamento sobre fé, caminhada e Palavra.",
 };
 

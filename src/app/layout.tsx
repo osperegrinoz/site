@@ -14,17 +14,17 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Peregrinoz — Um movimento bíblico",
+  title: "Peregrinoz · Um movimento bíblico",
   description:
-    "App, livro e comunidade para quem quer conhecer Jesus de verdade. Uma jornada pelo Evangelho de João. Lançamento: 29 de julho de 2026.",
+    "Livro, app e encontros semanais para quem quer conhecer Jesus de verdade. Pela Palavra, um capítulo por vez. Lançamento: 29 de julho de 2026.",
   openGraph: {
-    title: "Peregrinoz — Um movimento bíblico",
+    title: "Peregrinoz · Um movimento bíblico",
     description:
       "Caminhando com Jesus pela Palavra. Um movimento que serve a Igreja sem substituí-la.",
     type: "website",
     locale: "pt_BR",
   },
-  metadataBase: new URL("https://peregrinoz.com"),
+  metadataBase: new URL("https://osperegrinoz.com.br"),
 };
 
 export default function RootLayout({
