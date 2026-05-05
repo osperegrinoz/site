@@ -35,10 +35,10 @@ export function Hero() {
             ENTRAR NA LISTA DE ESPERA
           </a>
           <a
-            href="#peregrinagem"
+            href="#encontros"
             className="rounded-full border border-marrom/20 text-marrom px-8 py-4 text-sm tracking-wider hover:border-marrom transition-colors"
           >
-            ASSISTIR PEREGRINAGEM
+            VER ENCONTROS
           </a>
         </div>
 

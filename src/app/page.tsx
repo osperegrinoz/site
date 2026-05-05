@@ -5,7 +5,7 @@ import { Hero } from "@/components/Hero";
 import { ListaEspera } from "@/components/ListaEspera";
 import { Livro } from "@/components/Livro";
 import { Manifesto } from "@/components/Manifesto";
-import { Peregrinagem } from "@/components/Peregrinagem";
+import { Encontros } from "@/components/Encontros";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
         <Manifesto />
         <Livro />
         <App />
-        <Peregrinagem />
+        <Encontros />
         <ListaEspera />
       </main>
       <Footer />

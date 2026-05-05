@@ -43,7 +43,7 @@ export function ListaEspera() {
         </h2>
         <p className="text-marrom/80 max-w-lg mx-auto mb-10">
           Entre pra lista e receba o primeiro capítulo do livro no seu inbox,
-          os episódios da Peregrinagem antes de estrearem, e convite pro beta
+          os episódios dos Encontros antes de estrearem, e convite pro beta
           do app.
         </p>
 

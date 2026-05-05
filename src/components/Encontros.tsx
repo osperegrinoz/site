@@ -1,10 +1,10 @@
-export function Peregrinagem() {
+export function Encontros() {
   return (
-    <section id="peregrinagem" className="py-16 md:py-32 bg-marrom-profundo text-pergaminho">
+    <section id="encontros" className="py-16 md:py-32 bg-marrom-profundo text-pergaminho">
       <div className="mx-auto max-w-6xl px-6">
         <div className="text-center mb-16">
           <p className="text-xs tracking-[0.35em] text-dourado mb-6">
-            PEREGRINAGEM · YOUTUBE
+            ENCONTROS · YOUTUBE
           </p>
           <h2 className="text-3xl md:text-5xl leading-tight max-w-3xl mx-auto">
             21 encontros com Jesus,
