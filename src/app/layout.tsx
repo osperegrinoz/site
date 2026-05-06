@@ -16,13 +16,32 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Peregrinoz · Um movimento bíblico",
   description:
-    "Livro, app e encontros semanais para quem quer conhecer Jesus de verdade. Pela Palavra, um capítulo por vez. Lançamento: 29 de julho de 2026.",
+    "Conhecer Jesus de verdade não precisa ser uma caminhada solitária. Um livro, encontros toda quarta e um app pra caminhar pela Palavra, um capítulo por vez. Bora?",
+  keywords: [
+    "Jesus",
+    "Palavra",
+    "Bíblia",
+    "movimento bíblico",
+    "Peregrinoz",
+    "Evangelho de João",
+    "estudo bíblico",
+    "comunidade cristã",
+    "discipulado",
+    "Thiago Pastana",
+  ],
   openGraph: {
     title: "Peregrinoz · Um movimento bíblico",
     description:
-      "Caminhando com Jesus pela Palavra. Um movimento que serve a Igreja sem substituí-la.",
+      "Conhecer Jesus de verdade não precisa ser uma caminhada solitária. Um livro, encontros toda quarta e um app. Bora?",
     type: "website",
     locale: "pt_BR",
+    siteName: "Peregrinoz",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Peregrinoz · Um movimento bíblico",
+    description:
+      "Conhecer Jesus de verdade não precisa ser uma caminhada solitária. Bora?",
   },
   metadataBase: new URL("https://osperegrinoz.com.br"),
 };

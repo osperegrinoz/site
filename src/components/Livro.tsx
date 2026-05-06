@@ -38,10 +38,9 @@ export function Livro() {
             </p>
           </div>
 
-          <div className="mt-10 grid grid-cols-3 gap-6 text-center border-t border-marrom/10 pt-8">
+          <div className="mt-10 grid grid-cols-2 gap-6 text-center border-t border-marrom/10 pt-8 max-w-sm">
             <Stat valor="21" label="Capítulos" />
             <Stat valor="3" label="Partes" />
-            <Stat valor="Jul/26" label="Lançamento" />
           </div>
         </div>
 

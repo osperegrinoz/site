@@ -38,18 +38,18 @@ export function MobileNav() {
           </div>
 
           <nav className="flex flex-col items-center justify-center flex-1 gap-8 text-xl text-marrom">
-            <a href="/#manifesto" onClick={() => setOpen(false)}>Manifesto</a>
-            <a href="/#livro" onClick={() => setOpen(false)}>Livro</a>
-            <a href="/#app" onClick={() => setOpen(false)}>App</a>
+            <Link href="/#manifesto" onClick={() => setOpen(false)}>Manifesto</Link>
+            <Link href="/#livro" onClick={() => setOpen(false)}>Livro</Link>
+            <Link href="/#app" onClick={() => setOpen(false)}>App</Link>
             <Link href="/encontros" onClick={() => setOpen(false)}>Encontros</Link>
             <Link href="/escritos" onClick={() => setOpen(false)}>Escritos</Link>
-            <a
+            <Link
               href="/#lista-de-espera"
               onClick={() => setOpen(false)}
               className="mt-4 rounded-full bg-marrom text-pergaminho px-8 py-4 text-sm tracking-wider"
             >
               Lista de espera
-            </a>
+            </Link>
           </nav>
         </div>
       )}

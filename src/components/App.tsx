@@ -34,9 +34,33 @@ export function App() {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
+        <div className="mt-12 md:mt-16 rounded-2xl bg-marrom text-pergaminho p-8 md:p-12 relative overflow-hidden">
+          <div className="absolute inset-0 grain opacity-30" aria-hidden />
+          <div className="relative grid md:grid-cols-[auto_1fr] gap-6 md:gap-10 items-center">
+            <div className="text-center md:text-left">
+              <p className="text-xs tracking-[0.35em] text-dourado mb-2">
+                O ANJO
+              </p>
+              <p className="text-4xl md:text-5xl font-[family-name:var(--font-cinzel)] text-pergaminho">
+                ✦
+              </p>
+            </div>
+            <div className="text-center md:text-left">
+              <h3 className="text-xl md:text-2xl mb-3 leading-snug">
+                E quem quiser, pode caminhar acompanhado.
+              </h3>
+              <p className="text-sm md:text-base text-pergaminho/80 leading-relaxed max-w-xl">
+                O Anjo é direção espiritual no bolso. Pastoral, gentil, com a
+                Palavra como bússola. Único item pago do app. Quem não puder
+                pagar, segue caminhando do mesmo jeito.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-10 md:mt-12 text-center">
           <div className="inline-flex items-center gap-3 rounded-full bg-marrom/5 px-5 py-3 text-sm text-marrom/70">
-            <span className="w-2 h-2 rounded-full bg-dourado" />
+            <span className="w-2 h-2 rounded-full bg-dourado" aria-hidden />
             App disponível nas lojas em julho de 2026
           </div>
         </div>

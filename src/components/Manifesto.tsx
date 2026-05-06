@@ -7,22 +7,22 @@ export function Manifesto() {
         </p>
 
         <h2 className="text-3xl md:text-5xl leading-tight mb-8 md:mb-12">
-          Peregrino não é quem chegou.
-          <br />É quem ainda está na estrada.
+          E se a fé virou só clichê?
+          <br />
+          <span className="text-pergaminho/70">Peregrino não é quem chegou. É quem ainda está na estrada.</span>
         </h2>
 
-        <div className="space-y-6 text-lg leading-relaxed text-pergaminho/90 max-w-3xl">
+        <div className="space-y-6 text-base md:text-lg leading-relaxed text-pergaminho/90 max-w-3xl">
           <p>
-            Peregrinoz é um movimento bíblico centrado em Jesus Cristo. Nasceu
-            de uma pergunta que não dá pra fingir: e se a fé virou só clichê?
-            Resposta de cor, encontro nenhum, peso zero.
+            Resposta de cor, encontro nenhum, peso zero. Peregrinoz nasceu
+            dessa pergunta que não dá pra fingir. É um movimento bíblico
+            centrado em Jesus Cristo, que serve a Igreja sem substituí-la.
           </p>
           <p>
-            Não é conteúdo genérico. É um movimento que serve a Igreja sem
-            substituí-la. Construído para quem cresceu dentro da fé e perdeu o
-            peso dela, para quem foi machucado pela religião, e para quem está
-            chegando agora, cheio de perguntas. Deus não usa gente perfeita.
-            Usa gente restaurada.
+            Construído pra quem cresceu dentro da fé e perdeu o peso dela, pra
+            quem foi machucado pela religião, e pra quem está chegando agora,
+            cheio de perguntas. Deus não usa gente perfeita. Usa gente
+            restaurada.
           </p>
           <p className="text-dourado italic">
             &ldquo;Eu não quero que você vire uma versão mais religiosa de si

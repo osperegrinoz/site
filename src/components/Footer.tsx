@@ -2,8 +2,16 @@ import { LogoSymbol } from "./LogoSymbol";
 
 export function Footer() {
   return (
-    <footer className="border-t border-marrom/10 py-14 bg-pergaminho">
-      <div className="mx-auto max-w-6xl px-6 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 items-start">
+    <footer className="border-t border-marrom/10 bg-pergaminho">
+      <div className="mx-auto max-w-6xl px-6 pt-14 md:pt-20 pb-10">
+        <p className="text-center text-lg md:text-2xl text-marrom max-w-2xl mx-auto leading-relaxed font-[family-name:var(--font-cinzel)] italic">
+          Conhecer Jesus de verdade não precisa ser uma caminhada solitária.
+          {" "}
+          <span className="text-dourado not-italic">Bora?</span>
+        </p>
+      </div>
+
+      <div className="mx-auto max-w-6xl px-6 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 items-start pb-10 border-t border-marrom/10 pt-10">
         <div>
           <div className="flex items-center gap-3">
             <LogoSymbol size={40} />
@@ -16,7 +24,7 @@ export function Footer() {
           </p>
         </div>
 
-        <div className="text-sm">
+        <nav className="text-sm" aria-label="Navegação do rodapé">
           <p className="text-xs tracking-[0.3em] text-marrom/50 mb-4">
             NAVEGAR
           </p>
@@ -26,20 +34,40 @@ export function Footer() {
             <li><a href="#app" className="hover:text-marrom">App</a></li>
             <li><a href="#encontros" className="hover:text-marrom">Encontros</a></li>
           </ul>
-        </div>
+        </nav>
 
-        <div className="text-sm">
+        <nav className="text-sm" aria-label="Redes sociais">
           <p className="text-xs tracking-[0.3em] text-marrom/50 mb-4">
             ACOMPANHE
           </p>
           <ul className="space-y-2 text-marrom/80">
-            <li><a href="https://youtube.com/@peregrinoz" className="hover:text-marrom" target="_blank" rel="noreferrer">YouTube</a></li>
-            <li><a href="https://instagram.com/peregrinoz" className="hover:text-marrom" target="_blank" rel="noreferrer">Instagram</a></li>
+            <li>
+              <a
+                href="https://youtube.com/@osperegrinoz"
+                className="hover:text-marrom"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Canal Os PeregrinoZ no YouTube"
+              >
+                YouTube
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://instagram.com/osperegrinoz"
+                className="hover:text-marrom"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Perfil Os PeregrinoZ no Instagram"
+              >
+                Instagram
+              </a>
+            </li>
           </ul>
-        </div>
+        </nav>
       </div>
 
-      <div className="mt-8 md:mt-12 mx-auto max-w-6xl px-6 flex flex-col md:flex-row justify-between gap-2 text-xs text-marrom/50">
+      <div className="mx-auto max-w-6xl px-6 pb-10 flex flex-col md:flex-row justify-between gap-2 text-xs text-marrom/50 border-t border-marrom/10 pt-6">
         <p>© {new Date().getFullYear()} Peregrinoz. Todos os direitos reservados.</p>
         <p>Thiago Pastana</p>
       </div>

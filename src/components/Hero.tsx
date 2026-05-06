@@ -16,15 +16,14 @@ export function Hero() {
         </p>
 
         <h1 className="text-4xl sm:text-5xl md:text-7xl leading-[1.05] text-marrom mb-6 md:mb-8">
-          Caminhando com Jesus
+          Conhecer Jesus de verdade
           <br />
-          <span className="text-dourado">pela Palavra.</span>
+          <span className="text-dourado">não precisa ser uma caminhada solitária.</span>
         </h1>
 
         <p className="text-base md:text-xl text-marrom/80 max-w-2xl mx-auto leading-relaxed mb-8 md:mb-10">
-          Um livro, um app e encontros semanais para quem quer conhecer Jesus
-          de verdade. Não de cor, mas de encontro. Pela Palavra, um capítulo
-          por vez.
+          Um livro, encontros toda quarta e um app pra caminhar todo dia.
+          Pela Palavra, um capítulo por vez.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -32,7 +31,7 @@ export function Hero() {
             href="#lista-de-espera"
             className="rounded-full bg-marrom text-pergaminho px-8 py-4 text-sm tracking-wider hover:bg-marrom-profundo transition-colors"
           >
-            ENTRAR NA LISTA DE ESPERA
+            QUERO CAMINHAR JUNTO
           </a>
           <a
             href="#encontros"
@@ -43,7 +42,7 @@ export function Hero() {
         </div>
 
         <p className="mt-14 text-xs tracking-[0.3em] text-marrom/50">
-          EM BREVE · NA APP STORE E GOOGLE PLAY
+          APP NAS LOJAS EM JULHO DE 2026
         </p>
       </div>
     </section>
