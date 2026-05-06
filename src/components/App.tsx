@@ -12,8 +12,7 @@ export function App() {
             <span className="text-dourado">Uma caminhada inteira.</span>
           </h2>
           <p className="mt-6 text-marrom/70 max-w-xl mx-auto">
-            iOS + Android. Gratuito em tudo que é espiritual. Sem paywall em
-            conteúdo bíblico.
+            Para iOS e Android.
           </p>
         </div>
 
@@ -51,8 +50,7 @@ export function App() {
               </h3>
               <p className="text-sm md:text-base text-pergaminho/80 leading-relaxed max-w-xl">
                 O Anjo é direção espiritual no bolso. Pastoral, gentil, com a
-                Palavra como bússola. Único item pago do app. Quem não puder
-                pagar, segue caminhando do mesmo jeito.
+                Palavra como bússola.
               </p>
             </div>
           </div>
@@ -61,7 +59,7 @@ export function App() {
         <div className="mt-10 md:mt-12 text-center">
           <div className="inline-flex items-center gap-3 rounded-full bg-marrom/5 px-5 py-3 text-sm text-marrom/70">
             <span className="w-2 h-2 rounded-full bg-dourado" aria-hidden />
-            App disponível nas lojas em julho de 2026
+            App em desenvolvimento
           </div>
         </div>
       </div>
