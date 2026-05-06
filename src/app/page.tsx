@@ -7,6 +7,7 @@ import { ListaEspera } from "@/components/ListaEspera";
 import { Livro } from "@/components/Livro";
 import { Manifesto } from "@/components/Manifesto";
 import { Encontros } from "@/components/Encontros";
+import { Escritos } from "@/components/Escritos";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Livro />
         <App />
         <Encontros />
+        <Escritos />
         <ListaEspera />
       </main>
       <Footer />
