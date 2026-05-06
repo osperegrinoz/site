@@ -14,9 +14,12 @@ export function Manifesto() {
 
         <div className="space-y-6 text-base md:text-lg leading-relaxed text-pergaminho/90 max-w-3xl">
           <p>
-            Resposta de cor, encontro nenhum, peso zero. Peregrinoz nasceu
-            dessa pergunta que não dá pra fingir. É um movimento bíblico
-            centrado em Jesus Cristo, que serve a Igreja sem substituí-la.
+            Eu cresci respondendo certo sobre Deus e não sentindo nada.
+            Versículo decorado, mas nenhum encontro de verdade. Jesus era
+            mais uma ideia do que uma pessoa real. E quando a vida apertou,
+            descobri que fé no piloto automático não segura ninguém. PeregrinoZ
+            nasceu daí: da vontade de conhecer a pessoa (não a ideia) de
+            Jesus e de desenvolver um relacionamento sincero e honesto com ele.
           </p>
           <p>
             Construído pra quem cresceu dentro da fé e perdeu o peso dela, pra
