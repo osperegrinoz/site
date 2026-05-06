@@ -19,14 +19,16 @@ export function Livro() {
 
           <div className="space-y-5 text-marrom/85 leading-relaxed">
             <p>
-              21 capítulos, um para cada capítulo do Evangelho de João.
-              Testemunho cru, texto bíblico aberto, e uma pergunta que você não
-              vai conseguir devolver.
+              21 capítulos, um pra cada capítulo do Evangelho de João. Você
+              vai ler o que eu vivi, vai abrir a Bíblia junto comigo, e vai
+              sair de cada capítulo com uma pergunta que ninguém pode responder
+              por você.
             </p>
             <p>
-              Três partes. A primeira te diz por que você precisava disso. A
-              segunda te mostra quem Jesus é, de perto. A terceira te pergunta:
-              e agora, você vai seguir?
+              São três partes. Na primeira eu conto por que essa caminhada
+              começou pra mim. Na segunda a gente anda com Jesus de perto,
+              capítulo por capítulo de João. Na terceira sobra a pergunta que
+              importa: e você, vai seguir?
             </p>
             <p className="text-marrom italic border-l-2 border-dourado pl-5">
               &ldquo;Eu quero que você tenha um encontro real com Jesus através
